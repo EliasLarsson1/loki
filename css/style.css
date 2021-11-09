@@ -1,0 +1,124 @@
+/*Detta är mitt val av fonter samt storleken på fonten för hela min hemsida*/
+p{
+  font-size: 15px;
+  font-family:'Vollkorn', serif;
+  color:rgb(0, 0, 0);
+}
+ul{
+  font-size: 15px;
+  font-family: 'Vollkorn', serif;
+}
+ol{
+  font-size: 15px;
+  font-family: 'Vollkorn', serif;
+
+/*Detta är mina bilder, jag har bara fizat storleken*/
+}
+.bilden{
+  width:100%;
+}
+.mcu{
+  width:100%;
+}
+/*Detta är mina youtube klipp*/
+.film{
+  justify-content: center;
+  width: 70%;
+  height: 90%;
+}
+/*Detta är mina länkar, jag har bara fixat placeringen och tagit bort underraden på ena*/
+.disney{
+  text-align: center;
+  text-decoration: underline;
+}
+.länk{
+  text-align: center;
+}
+/*Detta är min klass för både länken tillbaka till min andra sida samt för en text i en av mina footers*/
+.d{
+  text-align: center;
+}
+/*Detta är en av delarna av footern där jag bara har placerat ut den*/
+.e{
+  text-align: right;
+}
+/*Detta är min klass där jag flyttat runt en av mina länkar i navbaren*/
+.båt{
+  order: 3;
+}
+/*Detta är min h1 där jag bara har fixat texten och ordningen i listan*/
+.titel{
+  text-align: center;
+  order: 0;
+}
+/*Detta är min lista som jag har i min header som jag bara har fixat så att det inte direkt ser ut som en vanlig lista*/
+.sämst{
+  list-style: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+/*Detta är mina anchor element där jag har fixat till dem så att de är rätt*/
+a{
+  text-decoration: none;
+  float:right;
+  padding: 8px;
+  color:black;
+}
+/*är min länk inom sidan, påverkar också texten man trycker på*/
+#ett{
+  font-size: 25px;
+  font-style: bold;
+}
+/*gör så att när man håller över mina länkar inom sidan så blir det vitt */
+a:hover {
+  color:white;
+}
+/*mina footers*/
+#footer{
+  display:flex;
+  background-color: rgb(237, 143, 19);
+  width:100%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+#foten{
+  display:flex;
+  background-color: rgb(22, 84, 3);
+  width:100%;
+  align-items: stretch;
+  justify-content: space-evenly;
+  text-align: center;
+}
+/*detta gör så att min lista i footern inte har punkter*/
+.bäst{
+  list-style:none;
+}
+/*mina bodies där jag har satt padding och bakgrundsfärg*/
+.klocka{
+  padding: 30px;
+  background-color:rgb(242, 213, 174);
+}
+.dörr{
+  padding: 30px;
+  background-color: rgb(95, 138, 97);
+}
+/*min länk från index.html till mobius.html*/
+.f{
+  text-align:right;
+  text-decoration: underline;
+}
+/*min header/navbar/meny*/
+.cooling {
+  align-items: stretch;
+justify-content: space-evenly;
+background-color: rgb(22, 84, 3);
+font-size: 20px;
+text-align: center;
+}
+.gridbox {
+  align-items: stretch;
+  justify-content: space-evenly;
+  background-color: rgb(237, 143, 19);
+  font-size: 20px;
+  text-align: center;
+}
