@@ -28,7 +28,7 @@ ol{
 }
 /*Detta är mina länkar, jag har bara fixat placeringen och tagit bort underraden på ena*/
 .disney{
-  text-align: center;
+  justify-content: center;
   text-decoration: underline;
 }
 .länk{
@@ -104,7 +104,7 @@ a:hover {
 }
 /*min länk från index.html till mobius.html*/
 .f{
-  text-align:right;
+  justify-content: center;
   text-decoration: underline;
 }
 /*min header/navbar/meny*/
