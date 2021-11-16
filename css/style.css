@@ -31,7 +31,7 @@ ol{
   justify-content: center;
   text-decoration: underline;
 }
-.länk{
+.link{
   text-align: center;
 }
 /*Detta är min klass för både länken tillbaka till min andra sida samt för en text i en av mina footers*/
@@ -43,7 +43,7 @@ ol{
   text-align: right;
 }
 /*Detta är min klass där jag flyttat runt en av mina länkar i navbaren*/
-.båt{
+.boat{
   order: 3;
 }
 /*Detta är min h1 där jag bara har fixat texten och ordningen i listan*/
@@ -52,7 +52,7 @@ ol{
   order: 0;
 }
 /*Detta är min lista som jag har i min header som jag bara har fixat så att det inte direkt ser ut som en vanlig lista*/
-.sämst{
+.good{
   list-style: none;
   font-weight: bold;
   font-size: 25px;
@@ -98,7 +98,7 @@ a:hover {
   padding: 30px;
   background-color:rgb(242, 213, 174);
 }
-.dörr{
+.door{
   padding: 30px;
   background-color: rgb(95, 138, 97);
 }
